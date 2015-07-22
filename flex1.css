@@ -89,9 +89,9 @@
       /* basic styling */
       /*width: 350px;*/
       width:auto;
-      height: 200px;
+      height: 100px;
       border: 1px solid #555;
-      font: 14px Arial;
+      /* font: 14px Arial;*/ 
 
       /* flexbox setup */
       display: -webkit-flex;
@@ -105,6 +105,7 @@
    {
       -webkit-flex: 1 1 auto;
       flex: 1 1 auto;
+      text-indent:10px;
 
       width: 30px; /* To make the transition work nicely.  (Transitions to/from
                       "width:auto" are buggy in Gecko and Webkit, at least.
@@ -115,9 +116,9 @@
    }
 
    /* colors */
-   .flex > div:nth-child(1){ background : #009246; }
+   .flex > div:nth-child(1){ background : #ffffff; }
    .flex > div:nth-child(2){ background : #F1F2F1; }
-   .flex > div:nth-child(3){ background : #CE2B37; }
+   .flex > div:nth-child(3){ background : #ffffff; }
 
    .flex > div:hover
    {
