@@ -1,61 +1,105 @@
+/*Source https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Flexible_boxes */
   body {
    font: 24px Arial, Helvetica;
    /* background: #999999;*/
    background:#ffffff;
    color: #333366;
   }
-.wrapper {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;  
+
+  #main {
+   min-height: 800px;
+   margin: 0px;
+   padding: 0px;
+   display: -webkit-flex;
+   display:         flex;
+   -webkit-flex-flow: row;
+           flex-flow: row;
+   }
+ 
+  #main > article {
+   margin: 4px;
+   padding: 5px;
+   border: 1px solid #cccc33;
+   border-radius: 7pt;
+   background: #dddd88;
+   -webkit-flex: 3 1 60%;
+           flex: 3 1 60%;
+   -webkit-order: 2;
+           order: 2;
+   }
   
-  -webkit-flex-flow: row wrap;
+  #main > nav {
+   margin: 4px;
+   padding: 5px;
+   border: 1px solid #8888bb;
+   border-radius: 7pt;
+   background: #ccccff;
+   -webkit-flex: 1 6 20%;
+           flex: 1 6 20%;
+   -webkit-order: 1;
+           order: 1;
+   }
+  
+  #main > aside {
+   margin: 4px;
+   padding: 5px;
+   border: 1px solid #8888bb;
+   border-radius: 7pt;
+   background: #ccccff;
+   -webkit-flex: 1 6 20%;
+           flex: 1 6 20%;
+   -webkit-order: 3;
+           order: 3;
+   }
+ /*removed header from the footer styling below */
+  footer {
+   display: block;
+   margin: 4px;
+   padding: 5px;
+   /* min-height: 100px; */
+   /* take away the min-height and the text overruns */
+  height: auto;
+   border: 1px solid #eebb55;
+   border-radius: 7pt;
+   /*background: #ffeebb;*/
+   background: #ffffff;
+   }
+ 
+  /* Too narrow to support three columns */
+  @media all and (max-width: 640px) {
+  
+   #main, #page {
+    -webkit-flex-flow: column;
+            flex-direction: column;
+   }
+
+   #main > article, #main > nav, #main > aside {
+    /* Return them to document order */
+    -webkit-order: 0;
+            order: 0;
+   }
+  
+   #main > nav, #main > aside, header, footer {
+    min-height: 50px;
+    max-height: 50px;
+   }
+  }
+  /* Below from CSS-tricks */
+  /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ last accessed July 2015 */
+  .flex-container {
+  /* We first create a flex layout context */
+  display: flex;
+  
+  /* Then we define the flow direction and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
   flex-flow: row wrap;
   
-  font-weight: bold;
-  text-align: center;
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
 }
-
-.wrapper > * {
-  padding: 10px;
-  flex: 1 100%;
-}
-
-header {
-  background: tomato;
-}
-
-footer {
-  background: lightgreen;
-} 
-
-main {
-  text-align: left;
-  background: deepskyblue;
-}
-
-.aside-1 {
-  background: gold;
-}
-
-.aside-2 {
-  background: hotpink;
-}
-
-@media all and (min-width: 600px) {
-  .aside { flex: 1 auto; }
-}
-
-@media all and (min-width: 800px) {
-  .main    { flex: 3 0px; }
-  .aside-1 { order: 1; } 
-  .main    { order: 2; }
-  .aside-2 { order: 3; }
-  .footer  { order: 4; }
-}
-
 /* Adding just the flex-container seems to accomplish only the same thing that width in percentages obtains */
 
    /*Below for Gitter a11y Slackers */
@@ -73,4 +117,4 @@ main {
 dd, dt, dl {
   font: 12px Arial, Helvetica;
 }
-
+  
