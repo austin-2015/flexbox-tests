@@ -175,13 +175,13 @@ dd, dt, dl {
 	display:inline-flexbox;
 }  
 #flexbox3 {
-	 display: flex;
+	display: flex;
   	flex-flow: row wrap;
   	width: 300px;
+  	flex: auto;
 }
 
 .flexbox3item {
-  display: flex-auto;	
   width: 80px;
 }
   
