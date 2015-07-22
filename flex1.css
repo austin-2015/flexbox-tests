@@ -168,6 +168,9 @@ dd, dt, dl {
 	-webkit-flex: 1 auto;
 	flex: 1 auto;
 }
-#flexbox {
+#flextbox1 {
+	 display:flex;
+}
+#flexbox2 {
 	display:inline-flexbox;
 }
