@@ -168,3 +168,6 @@ dd, dt, dl {
 	-webkit-flex: 1 auto;
 	flex: 1 auto;
 }
+#flexbox {
+	display:inline-flexbox;
+}
