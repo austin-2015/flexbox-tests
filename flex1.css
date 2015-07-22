@@ -177,6 +177,7 @@ dd, dt, dl {
   	flex-flow: row wrap;
   	width: 300px;
   	flex: auto;
+  	overflow: hidden;
 }
 
 .flexbox2item {
