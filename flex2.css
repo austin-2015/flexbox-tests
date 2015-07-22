@@ -84,37 +84,45 @@
     max-height: 50px;
    }
   }
-  /* Below from CSS-tricks */
-  /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ last accessed July 2015 */
-  .flex-container {
-  /* We first create a flex layout context */
-  display: flex;
-  
-  /* Then we define the flow direction and if we allow the items to wrap 
-   * Remember this is the same as:
-   * flex-direction: row;
-   * flex-wrap: wrap;
-   */
-  flex-flow: row wrap;
-  
-  /* Then we define how is distributed the remaining space */
-  justify-content: space-around;
-}
-/* Adding just the flex-container seems to accomplish only the same thing that width in percentages obtains */
+   .flex
+   {
+      /* basic styling */
+      /*width: 350px;*/
+      width:auto;
+      height: 100px;
+      border: 1px solid #555;
+      /* font: 14px Arial;*/ 
 
-   /*Below for Gitter a11y Slackers */
-   .iframe-region {
-     /* height:100%; */
-     height:300px;
-     position:relative;
-     -webkit-box-flex:1;
-     -webkit-flex-grow:1;
-     -ms-flex-positive:1;
-     flex-grow:1
-     
+      /* flexbox setup */
+      display: -webkit-flex;
+      -webkit-flex-direction: row;
+
+      display: flex;
+      flex-direction: row;
    }
-/* for styling metadata example */
-dd, dt, dl {
-  font: 12px Arial, Helvetica;
-}
+   
+    .flex > div
+   {
+      -webkit-flex: 1 1 auto;
+      flex: 1 1 auto;
+      text-indent:10px;
+
+      width: 30px; /* To make the transition work nicely.  (Transitions to/from
+                      "width:auto" are buggy in Gecko and Webkit, at least.
+                      See http://bugzil.la/731886 for more info.) */
+
+      -webkit-transition: width 0.7s ease-out;
+      transition: width 0.7s ease-out;
+   }
+
+   /* colors */
+   .flex > div:nth-child(1){ background : #ffffff; }
+   .flex > div:nth-child(2){ background : #F1F2F1; }
+   .flex > div:nth-child(3){ background : #ffffff; }
+
+   .flex > div:hover
+   {
+        width: 200px;
+   }
   
+   
