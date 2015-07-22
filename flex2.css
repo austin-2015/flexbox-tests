@@ -1,3 +1,9 @@
+  body {
+   font: 24px Arial, Helvetica;
+   /* background: #999999;*/
+   background:#ffffff;
+   color: #333366;
+  }
 .wrapper {
   display: -webkit-box;
   display: -moz-box;
@@ -50,7 +56,4 @@ aside-2 {
   .footer  { order: 4; }
 }
 
-body {
-  padding: 2em; 
-}
-  
+ 
