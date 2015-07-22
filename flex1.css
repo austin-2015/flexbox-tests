@@ -93,6 +93,8 @@
       /*border: 1px solid #555;*/
        border: 1px solid #eebb55;
        border-radius: 7pt;
+        margin: 4px;
+        padding: 5px;
       /* font: 14px Arial;*/ 
 
       /* flexbox setup */
