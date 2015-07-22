@@ -57,6 +57,8 @@
    margin: 4px;
    padding: 5px;
    /* min-height: 100px; */
+   /* take away the min-height and the text overruns */
+   min-height:1em;
    border: 1px solid #eebb55;
    border-radius: 7pt;
    /*background: #ffeebb;*/
@@ -83,6 +85,7 @@
    }
   }
   /* Below from CSS-tricks */
+  /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ last accessed July 2015 */
   .flex-container {
   /* We first create a flex layout context */
   display: flex;
@@ -97,4 +100,5 @@
   /* Then we define how is distributed the remaining space */
   justify-content: space-around;
 }
-  
+/* Adding just the flex-container seems to accomplish only the same thing that width in percentages obtains */
+
