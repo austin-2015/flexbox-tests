@@ -17,24 +17,24 @@
   flex: 1 100%;
 }
 
-.header {
+header {
   background: tomato;
 }
 
-.footer {
+footer {
   background: lightgreen;
 } 
 
-.main {
+main {
   text-align: left;
   background: deepskyblue;
 }
 
-.aside-1 {
+aside-1 {
   background: gold;
 }
 
-.aside-2 {
+aside-2 {
   background: hotpink;
 }
 
