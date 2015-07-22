@@ -87,7 +87,8 @@
    .flex
    {
       /* basic styling */
-      width: 350px;
+      /*width: 350px;*/
+      width:auto;
       height: 200px;
       border: 1px solid #555;
       font: 14px Arial;
