@@ -156,4 +156,15 @@
 dd, dt, dl {
   font: 12px Arial, Helvetica;
 }
-  
+/* from http://bennettfeely.com/flexplorer/ */
+.flex-container {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+.flex-item {
+	-webkit-flex: 1 auto;
+	flex: 1 auto;
+}
