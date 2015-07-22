@@ -171,17 +171,15 @@ dd, dt, dl {
 #flextbox1 {
 	 display:flex;
 }
+ 
 #flexbox2 {
-	display:inline-flexbox;
-}  
-#flexbox3 {
 	display: flex;
   	flex-flow: row wrap;
   	width: 300px;
   	flex: auto;
 }
 
-.flexbox3item {
+.flexbox2item {
   width: 80px;
 }
 /*below from CSS tricks https://css-tricks.com/almanac/properties/f/flex/ */  
