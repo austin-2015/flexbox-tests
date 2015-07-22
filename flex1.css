@@ -223,4 +223,19 @@ dd, dt, dl {
   font-size: 2em;
   text-align: center;
 }
-  
+/* below from https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+.container {
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+}
+
+.parent {
+  display: flex;
+  height: 300px; /* Or whatever */
+}
+
+.child {
+  width: 100px;  /* Or whatever */
+  height: 100px; /* Or whatever */
+  margin: auto;  /* Magic! */
+}
