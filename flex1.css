@@ -58,7 +58,7 @@
    padding: 5px;
    /* min-height: 100px; */
    /* take away the min-height and the text overruns */
-   min-height:1em;
+  height: auto;
    border: 1px solid #eebb55;
    border-radius: 7pt;
    /*background: #ffeebb;*/
