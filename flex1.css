@@ -1,7 +1,8 @@
 /*Source https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Flexible_boxes */
   body {
-   font: 24px Helvetica;
-   background: #999999;
+   font: 24px Arial, Helvetica;
+   /* background: #999999;*/
+   background:#ffffff;
   }
 
   #main {
