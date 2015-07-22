@@ -181,5 +181,6 @@ dd, dt, dl {
 }
 
 .flexbox3item {
+  display: flex-auto;	
   width: 80px;
 }
