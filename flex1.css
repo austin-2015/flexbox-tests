@@ -51,8 +51,8 @@
    -webkit-order: 3;
            order: 3;
    }
- 
-  header, footer {
+ /*removed header from the footer styling below */
+  footer {
    display: block;
    margin: 4px;
    padding: 5px;
