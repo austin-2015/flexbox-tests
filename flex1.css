@@ -174,3 +174,12 @@ dd, dt, dl {
 #flexbox2 {
 	display:inline-flexbox;
 }  
+#flexbox3 {
+	 display: flex;
+  	flex-flow: row wrap;
+  	width: 300px;
+}
+
+.flexbox3item {
+  width: 80px;
+}
