@@ -1,5 +1,4 @@
    
-   
 <!DOCTYPE HTML>
 <html lang="en">
    <!-- source for script https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Sections_and_Outlines_of_an_HTML5_document -->
@@ -22,6 +21,7 @@
 <![endif]-->
    
 <head>
+   <meta charset="utf-8" />
 <TITLE>Test Test Test</TITLE>
 <link rel="stylesheet" href="flex1.css" />
 </head>
@@ -30,8 +30,31 @@
 <HEADER>
  <H1>This Page is Under Development</H1>
 </HEADER>
-<section style="background:url('https://cloud.githubusercontent.com/assets/4747981/8571311/f0056e8c-2553-11e5-860d-61ca63a5e4ff.jpg') no-repeat center center;height:500px;background-size:cover;"></section>
-<aside><h6>Background image by  Ryan McGuire <a href="http://gratisography.com/">Gratisography</a></h6></aside>
+<article itemscope itemtype="http://schema.org/CreativeWork">
+   <header><h4>Welcome to my world...</h4></header>
+<aside style="background:url('https://cloud.githubusercontent.com/assets/4747981/8571311/f0056e8c-2553-11e5-860d-61ca63a5e4ff.jpg') no-repeat center center;height:500px;background-size:cover;"></aside>
+<h6>Background image by  Ryan McGuire <a href="http://gratisography.com/">Gratisography</a></h6>
+</article>
+<section style="padding-bottom:100px;">
+   <header><h3>Gitter a11y Slackers</h3></header>
+       <div class="iframe-region">
+      <iframe src="https://gitter.im/w3c/a11ySlackers/~chat#initial" style="display: block; width: 100%; height: 300px;" sandbox></iframe>
+       <h6><a href="https://gitter.im/w3c/a11ySlackers">Login and start talking Gitter a11y Slackers</a></h6>
+    </div>
+</section>
+<section>
+   <header>
+   <h3>Flex Container</h3>
+   </header>
+<ul class="flex-container">
+  <li class="flex-item"><a href="https://gitter.im/w3c/a11ySlackers">Gitter W3C a11ySlackers</a></li>
+  <li class="flex-item">2</li>
+  <li class="flex-item">3</li>
+  <li class="flex-item">4</li>
+  <li class="flex-item">5</li>
+  <li class="flex-item">6</li>
+</ul>
+</section>
 </main>
 <FOOTER>
 
