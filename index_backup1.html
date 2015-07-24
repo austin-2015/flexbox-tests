@@ -25,38 +25,64 @@
 <link rel="stylesheet" href="flex1.css" />
 </head>
 <body>
-   <main>
+   <div id="skip"><a href="#content">Skip to Main Content</a></div> 
 <HEADER>
- <H1>This Page is ... Very Much...Under Development</H1>
+ <H1>Under Construction</H1>
 </HEADER>
 <article itemscope itemtype="http://schema.org/CreativeWork">
-   <header><h4>Welcome to my world...</h4></header>
-<aside style="background:url('https://cloud.githubusercontent.com/assets/4747981/8571311/f0056e8c-2553-11e5-860d-61ca63a5e4ff.jpg') no-repeat center center;height:500px;background-size:cover;"></aside>
+   <header><h4>Very, very very much under construction...</h4></header>
+<div style="background:url('https://cloud.githubusercontent.com/assets/4747981/8571311/f0056e8c-2553-11e5-860d-61ca63a5e4ff.jpg') no-repeat center center;height:500px;background-size:cover;"></div>
 <h6>Background image by  Ryan McGuire <a href="http://gratisography.com/">Gratisography</a></h6>
 </article>
-<section style="padding-bottom:100px;">
+<aside>
    <header><h3>Gitter a11y Slackers</h3></header>
        <div class="iframe-region">
          <iframe src="https://gitter.im/w3c/a11ySlackers/~chat#initial" style="display: block; width: 100%; height: 300px;" sandbox></iframe>
        </div>
-</section>
+</aside>
+<aside>
+<ul class="flex-container">
+  <li class="flex-item">1</li>
+  <li class="flex-item">2</li>
+  <li class="flex-item">3</li>
+  <li class="flex-item">4</li>
+  <li class="flex-item">5</li>
+  <li class="flex-item">6</li>
+</ul>
+</aside>
+<main id="content">
 <section>
-   <header><h4>Gitter a11y Slackers Important Links</h4></header>
-   <div class="flex">
-      <div><h4><a href="https://gitter.im/w3c/a11ySlackers">Login at this link to start talking Gitter a11y Slackers</a></h4></div>
-      <div><h4><a href="https://github.com/w3c/a11ySlackers#user-content-pidgin">Join</a></h4></div>
-      <div><h4><a href="http://www.paciellogroup.com/blog/2015/07/anybody-can-be-an-a11y-slacker/#sameroom">Anybody can be an A11y Slacker</a></h4></div>
+   <header><h5>Gitter a11y Slackers Important Links</h5></header>
+   <div class="flex flexcontainer">
+      <div><h6><a href="https://gitter.im/w3c/a11ySlackers">Login at this link to start talking Gitter a11y Slackers</a></h6></div>
+      <div><h6><a href="https://github.com/w3c/a11ySlackers#user-content-pidgin">Join</a></h6></div>
+      <div><h6><a href="http://www.paciellogroup.com/blog/2015/07/anybody-can-be-an-a11y-slacker/#sameroom">Anybody can be an A11y Slacker</a></h6></div>
    </div>
 </section>
 
+<section class="flex flexcontainer">
+   <div>
+      <h6><a href="flexboxtests1.html">Flexbox Test One</a></h6>
+   </div>
+   <div>
+      <h6><a href="microdatatest1.html">Microdata Tests</a></h6>
+   </div>
+   <div>
+      <h6>To Fix: Keyboard Trap in Gitter Area</h6>
+   </div>
+   <div>
+      <h6>To Review: <a href="http://bennettfeely.com/flexplorer/">http://bennettfeely.com/flexplorer/</a></h6>
+   </div>
+   </section>
 </main>
-
-<FOOTER>
-   <h5>Tests</h5>
-   <h6><a href="flexboxtests1.html">Flexbox Test One</a></h6>
-   <h6><a href="microdatatest1.html">Microdata Tests</a></h6>
-
-</FOOTER>
-</body>
- </html>    
- 
+  <footer>
+     <h6>Footer Note: Remember iframe needs to be bypassed: See W3C Bypass Blocks: Understanding SC 2.4.1</h6>
+     <h6><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html">WCAG 2.0 has specified a guideline for bypassing repetitive blocks of content. </a></h6>
+     <h6><a href="http://webaim.org/techniques/css/invisiblecontent/">WebAIM technique for skip link that comes into focus when tabbing</a></h6>
+  </footer>
+  <footer>
+     <h6><a href="https://scotch.io/demos/visual-guide-to-css3-flexbox-flexbox-playground">Visual Guide Flexbox</a></h6>
+  </footer>
+  </body>
+  </html>    
+       
