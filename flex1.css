@@ -109,7 +109,12 @@
    {
       -webkit-flex: 1 1 auto;
       flex: 1 1 auto;
-      text-indent:10px;
+      /* text-indent:10px; */
+      text-align:center;
+      /* added individual border properties */
+       border: 3px solid #eebb55;
+      border-radius: 7pt;
+      
 
       width: 30px; /* To make the transition work nicely.  (Transitions to/from
                       "width:auto" are buggy in Gecko and Webkit, at least.
@@ -127,7 +132,7 @@
    .flex > div:hover
    {
         /*width: 200px; original only width change, added border style for hover*/
-      border: 3px solid #eebb55;
+      border: 5px solid #eebb55;
       border-radius: 7pt;
       width:200px;
    }
