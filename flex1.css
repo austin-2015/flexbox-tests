@@ -87,8 +87,8 @@
    .flex
    {
       /* basic styling */
-      width: 350px;
-      /*width:auto;*/
+      /*width: 350px;*/
+      width:auto;
       height: 100px;
       /*border: 1px solid #555;*/
        border: 1px solid #eebb55;
@@ -116,7 +116,7 @@
       border-radius: 7pt;
       
 
-      width: 30px; /* To make the transition work nicely.  (Transitions to/from
+      width: 300px; /* To make the transition work nicely.  (Transitions to/from
                       "width:auto" are buggy in Gecko and Webkit, at least.
                       See http://bugzil.la/731886 for more info.) */
 
