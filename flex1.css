@@ -1,6 +1,6 @@
 /*Source https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Flexible_boxes */
   body {
-   font: 24px Arial, Helvetica;
+   font: 16px Arial, Helvetica;
    /* background: #999999;*/
    background:#ffffff;
    color: #333366;
@@ -51,12 +51,12 @@
    -webkit-order: 3;
            order: 3;
    }
- /*removed header from the footer styling below */
+ /*removed header from the styling below which included both header and footer */
   footer {
    display: block;
    margin: 4px;
    padding: 5px;
-   /* min-height: 100px; */
+   min-height: 100px;
    /* take away the min-height and the text overruns */
   height: auto;
    border: 1px solid #eebb55;
@@ -112,7 +112,7 @@
       /* text-indent:10px; */
       text-align:center;
       /* added individual border properties */
-       border: 3px solid #eebb55;
+      border: 3px solid #ffffff;
       border-radius: 7pt;
       
 
@@ -144,3 +144,4 @@
     justify-content: stretch;
 }    
    
+  
