@@ -141,6 +141,7 @@
   font-size: 1em;
   text-align: center;
   text-decoration:none;
+  overflow: hidden;
 } 
 
 .flex-item-blue a:hover, a:focus {
@@ -155,6 +156,7 @@
   font-size: 1em;
   text-align: center;
   text-decoration:none;
+  overflow: hidden;
 } 
 
 
