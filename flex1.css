@@ -58,7 +58,6 @@
    padding: 5px;
    min-height: 100px;
    /* take away the min-height and the text overruns */
-  height: auto;
    border: 1px solid #eebb55;
    border-radius: 7pt;
    /*background: #ffeebb;*/
@@ -147,6 +146,8 @@
   display: flex;
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
+  /*add flex-wrap: wrap; */
+  flex-wrap: wrap;
 }
 
 .flex-item {
