@@ -128,7 +128,6 @@
   font-size: 1em;
   text-align: center;
   overflow: hidden;
-  text-transform: uppercase;
 } 
 
 .flex-item-blue a, a:active {
@@ -179,6 +178,6 @@ width:auto;
 height:auto;
 }     
    
-             
+              
     
   
