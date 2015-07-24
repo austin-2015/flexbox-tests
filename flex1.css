@@ -114,7 +114,6 @@
       /* added individual border properties */
       border: 3px solid #ffffff;
       border-radius: 7pt;
-      min-width:500px;
 
       width: 30px; /* To make the transition work nicely.  (Transitions to/from
                       "width:auto" are buggy in Gecko and Webkit, at least.
@@ -164,3 +163,4 @@
 } 
       
     
+ 
