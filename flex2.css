@@ -141,7 +141,7 @@
   font-weight: bold;
   font-size: 1em;
   text-align: center;
-  text-decoration:none;
+  text-decoration:underline wavy red;
 } 
 
 .flex-item-blue a:hover, a:focus {
