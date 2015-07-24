@@ -128,6 +128,7 @@
   font-size: 1em;
   text-align: center;
   overflow: hidden;
+  text-transform: uppercase;
 } 
 
 .flex-item-blue a, a:active {
@@ -141,7 +142,7 @@
   font-weight: bold;
   font-size: 1em;
   text-align: center;
-  text-decoration:underline wavy red;
+  text-decoration:none;
 } 
 
 .flex-item-blue a:hover, a:focus {
@@ -155,7 +156,7 @@
   font-weight: bold;
   font-size: 1em;
   text-align: center;
-  text-decoration:underline wavy red;
+  text-decoration:none;
 } 
 
 
