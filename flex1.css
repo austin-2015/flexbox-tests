@@ -114,9 +114,9 @@
       /* added individual border properties */
       border: 3px solid #ffffff;
       border-radius: 7pt;
-      
+      min-width:500px;
 
-      width: 300px; /* To make the transition work nicely.  (Transitions to/from
+      width: 30px; /* To make the transition work nicely.  (Transitions to/from
                       "width:auto" are buggy in Gecko and Webkit, at least.
                       See http://bugzil.la/731886 for more info.) */
 
@@ -162,5 +162,5 @@
   font-size: 3em;
   text-align: center;
 } 
-    
+      
     
