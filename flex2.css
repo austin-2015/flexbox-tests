@@ -117,7 +117,7 @@
 /* add blue color to above 00ccff */
 
 .flex-item-blue {
-  background: #00ccff;
+  background: #336699;
   padding: 5px;
   width: 200px;
   height: 150px;
@@ -131,7 +131,7 @@
 } 
 
 .flex-item-blue a, a:active {
-  background: #336699;
+  background: #00ccff;
   padding: 5px;
   width: 200px;
   height: 150px;
