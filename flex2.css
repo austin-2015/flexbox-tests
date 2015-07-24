@@ -125,8 +125,36 @@
   line-height: 150px;
   color: white;
   font-weight: bold;
-  font-size: 3em;
+  font-size: 1em;
   text-align: center;
+} 
+
+.flex-item-blue a:active {
+  background: #00ccff;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  text-decoration:none;
+} 
+
+.flex-item-blue a:hover, a:focus {
+  background: #000000;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  text-decoration:none;
 } 
 
 
