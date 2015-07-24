@@ -127,7 +127,10 @@
    .flex > div:hover
    {
         /*width: 200px;*/
-        background:#ff0000;
+      border: 10px solid #eebb55;
+      border-radius: 7pt;
+      margin: 4px;
+      padding: 5px;
    }
   
        
