@@ -83,59 +83,8 @@
     max-height: 50px;
    }
   }
-   .flex
-   {
-      /* basic styling */
-      /*width: 350px;*/
-      width:auto;
-      height: 100px;
-      /*border: 1px solid #555;*/
-       border: 1px solid #eebb55;
-       border-radius: 7pt;
-        margin: 4px;
-        padding: 5px;
-      /* font: 14px Arial;*/ 
-
-      /* flexbox setup */
-      display: -webkit-flex;
-      -webkit-flex-direction: row;
-
-      display: flex;
-      flex-direction: row;
-      /*add flex-wrap: wrap; this seems to solve the wrap-around problem for CSS tricks example*/
-      flex-wrap: wrap;
-   }
-   
-    .flex > div
-   {
-      -webkit-flex: 1 1 auto;
-      flex: 1 1 auto;
-      /* text-indent:10px; */
-      text-align:center;
-      /* added individual border properties */
-      border: 3px solid #ffffff;
-      border-radius: 7pt;
-
-      width: 30px; /* To make the transition work nicely.  (Transitions to/from
-                      "width:auto" are buggy in Gecko and Webkit, at least.
-                      See http://bugzil.la/731886 for more info.) */
-
-      -webkit-transition: width 0.7s ease-out;
-      transition: width 0.7s ease-out;
-   }
-
-   /* colors */
-   .flex > div:nth-child(1){ background : #ffffff; }
-   .flex > div:nth-child(2){ background : #F1F2F1; }
-   .flex > div:nth-child(3){ background : #ffffff; }
-
-   .flex > div:hover
-   {
-        /*width: 200px; original only width change, added border style for hover*/
-      border: 5px solid #eebb55;
-      border-radius: 7pt;
-      width:200px;
-   }
+  
+ 
  /* Below adapted from CSS Tricks  https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
 .flex-container {
   padding: 0;
@@ -161,10 +110,58 @@
   line-height: 150px;
   color: white;
   font-weight: bold;
-  font-size: 3em;
+  font-size: 1em;
   text-align: center;
 } 
+
+/* add blue color to above 00ccff */
+
+.flex-item-blue {
+  background: #333366;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  overflow: hidden;
+} 
+
+.flex-item-blue a, a:active {
+  background: #333366;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  text-decoration:none;
+} 
+
+.flex-item-blue a:hover, a:focus {
+  background: #000000;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  text-decoration:none;
+} 
+
+
 /*above is end of code modified and adapted from CSS tricks */
+
+
 /* below from http://webaim.org/techniques/css/invisiblecontent/ */      
   #skip a
 {
@@ -182,4 +179,18 @@ position:static;
 width:auto;
 height:auto;
 }     
+/* below to test content before and after */
+/* also see reference https://css-tricks.com/css-content/ */
+.flex-item::before { 
+    content: "To Do ";
+}
+
+.flex-item-blue a:visited:before {
+   content:  "\2713 ";
+}
+
+/* end test content before and after */   
+              
       
+    
+  
