@@ -160,6 +160,13 @@
 
 
 /*above is end of code modified and adapted from CSS tricks */
+/* below to test content before and after */
+.flex-item a::before { 
+    content: " - To Do";
+}
+
+/* end test content before and after */
+
 /* below from http://webaim.org/techniques/css/invisiblecontent/ */      
   #skip a
 {
