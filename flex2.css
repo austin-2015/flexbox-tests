@@ -182,7 +182,7 @@ height:auto;
 /* below to test content before and after */
 /* also see reference https://css-tricks.com/css-content/ */
 .flex-item::before { 
-    content: "To Do";
+    content: "To Do ";
 }
 
 .flex-item-blue a:visited:before {
