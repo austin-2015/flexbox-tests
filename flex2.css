@@ -1,3 +1,4 @@
+
 /*Source https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Flexible_boxes */
   body {
    font: 16px Arial, Helvetica;
@@ -119,6 +120,9 @@ height:auto;
   flex-wrap: wrap;
   flex-grow: 1;
 }
+/* storm color #4b6e8c */
+/* tan color #be9a84 */
+/*bluegreen color 1fb2d2 This will definitely need to be checked for color contrast*/
 
 .flex-item {
   background: tomato;
@@ -153,6 +157,23 @@ height:auto;
   flex-grow: 1;
   order: 2;
 } 
+
+.flex-item-black {
+  background: #000000;
+  border-left:15px solid #ff0000;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  overflow: hidden;
+  flex-grow: 1;
+  order: 3;
+} 
 /* add blue color to above 00ccff */
 
 .flex-item-blue {
@@ -172,7 +193,6 @@ height:auto;
   order: 4;
 } 
 
-/*bluegreen color 1fb2d2 This will definitely need to be checked for color contrast*/
 .flex-item-bluegreen {
   background: #1fb2d2;
   border-left:15px solid #000000;
@@ -209,13 +229,13 @@ height:auto;
 
 .flex-item-tan {
   background: #be9a84;
-  border-left:15px solid #1fb2d2;
+  border-left:15px solid #ff0000;
   padding: 5px;
   width: 200px;
   height: 150px;
   margin-top: 10px;
   line-height: 150px;
-  color: white;
+  color: black;
   font-weight: bold;
   font-size: 1em;
   text-align: center;
@@ -251,8 +271,7 @@ height:auto;
   text-align: center;
   text-decoration:none;
 } 
-/* storm color #4b6e8c */
-/* tan color #be9a84 */
+
 
 .flex-item-blue a, a:active {
   background: #333366;
@@ -293,9 +312,7 @@ height:auto;
   font-weight: bold;
   font-size: 1em;
   text-align: center;
-  overflow: hidden;
-  flex-grow: 1;
-  order: 5;
+  text-decoration:none;
 } 
 
 .flex-item-storm a, a:active {
@@ -309,9 +326,7 @@ height:auto;
   font-weight: bold;
   font-size: 1em;
   text-align: center;
-  overflow: hidden;
-  flex-grow: 1;
-  order: 5;
+  text-decoration:none;
 } 
 
 
@@ -371,22 +386,7 @@ height:auto;
   text-decoration:none;
 } 
 
-.flex-item-black {
-  background: #000000;
-  border-left:15px solid #ff0000;
-  padding: 5px;
-  width: 200px;
-  height: 150px;
-  margin-top: 10px;
-  line-height: 150px;
-  color: white;
-  font-weight: bold;
-  font-size: 1em;
-  text-align: center;
-  overflow: hidden;
-  flex-grow: 1;
-  order: 3;
-} 
+
 .flex-item-black a, a:active {
   background: #000000;
   padding: 5px;
@@ -414,25 +414,37 @@ height:auto;
   text-align: center;
   text-decoration:none;
 } 
+.flex-item-tan a, a:active {
+  background:# be9a84;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  text-decoration:none;
+} 
+
+.flex-item-tan a:hover, a:focus {
+  background: #000000;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  text-decoration:none;
+} 
+
 
 /*above is end of code modified and adapted from CSS tricks */
-/* below from http://webaim.org/techniques/css/invisiblecontent/ */      
-  #skip a
-{
-position:absolute;
-left:-10000px;
-top:auto;
-width:1px;
-height:1px;
-overflow:hidden;
-}
- 
-#skip a:focus
-{
-position:static;
-width:auto;
-height:auto;
-}     
+    
    
 /* below to test content before and after */
 /* also see reference https://css-tricks.com/css-content/ */
@@ -452,6 +464,10 @@ height:auto;
 }
 .flex-item-blue::before { 
     content: "Link: ";
+}
+
+.flex-item-tan::before { 
+    content: "Techniques: ";
 }
 
 .flex-item-brick a:visited:before {
