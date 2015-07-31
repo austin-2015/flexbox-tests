@@ -59,10 +59,11 @@
    padding: 5px;
    min-height: 100px;
    /* take away the min-height and the text overruns */
-   border: 1px solid #eebb55;
-   border-radius: 7pt;
+   /*border: 1px solid #eebb55;*/
+   border-bottom: 5px solid #1fb2d2;
+   /*border-radius: 7pt;*/
    /*background: #ffeebb;*/
-   background: #ffffff;
+   /*background: #ffffff;*/
    }
  
   /* Too narrow to support three columns */
