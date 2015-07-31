@@ -137,11 +137,27 @@ height:auto;
   order: 1;
 } 
 
+.flex-item-brick {
+  background: #993333;
+  border-left:15px solid #000000;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  overflow: hidden;
+  flex-grow: 1;
+  order: 2;
+} 
 /* add blue color to above 00ccff */
 
 .flex-item-blue {
   background: #333366;
-  border-left:15px solid #ff0000;
+  border-left:15px solid #be9a84;
   padding: 5px;
   width: 200px;
   height: 150px;
@@ -171,7 +187,7 @@ height:auto;
   text-align: center;
   overflow: hidden;
   flex-grow: 1;
-  order: 4;
+  order: 5;
 } 
 
 .flex-item-storm {
@@ -188,7 +204,24 @@ height:auto;
   text-align: center;
   overflow: hidden;
   flex-grow: 1;
-  order: 5;
+  order: 6;
+} 
+
+.flex-item-tan {
+  background: #be9a84;
+  border-left:15px solid #1fb2d2;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  overflow: hidden;
+  flex-grow: 1;
+  order: 7;
 } 
 
 .flex-item a, a:active {
@@ -219,6 +252,7 @@ height:auto;
   text-decoration:none;
 } 
 /* storm color #4b6e8c */
+/* tan color #be9a84 */
 
 .flex-item-blue a, a:active {
   background: #333366;
@@ -308,22 +342,7 @@ height:auto;
   text-align: center;
   text-decoration:none;
 } 
-.flex-item-brick {
-  background: #993333;
-  border-left:15px solid #000000;
-  padding: 5px;
-  width: 200px;
-  height: 150px;
-  margin-top: 10px;
-  line-height: 150px;
-  color: white;
-  font-weight: bold;
-  font-size: 1em;
-  text-align: center;
-  overflow: hidden;
-  flex-grow: 1;
-  order: 2;
-} 
+
 .flex-item-brick a, a:active {
   background: #993333;
   padding: 5px;
