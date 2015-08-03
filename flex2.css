@@ -443,6 +443,52 @@ height:auto;
   text-decoration:none;
 } 
 
+/*brown 67300c */
+
+.flex-item-brown {
+  background: #67300c;
+  border-left:15px solid #000000;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  overflow: hidden;
+  flex-grow: 1;
+  /*order: 2;*/
+} 
+
+.flex-item-brown a, a:active {
+  background: #67300c;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  text-decoration:none;
+} 
+
+.flex-item-brown a:hover, a:focus {
+  background: #000000;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  text-decoration:none;
+} 
 
 /*above is end of code modified and adapted from CSS tricks */
     
@@ -477,6 +523,10 @@ height:auto;
 
 .flex-item-blue a:visited:before {
    content:  "\2713 ";
+}
+
+.flex-item-brown::before { 
+    content: "Geoloc: ";
 }
 
 /* end test content before and after */  
