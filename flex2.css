@@ -510,7 +510,7 @@ height:auto;
     content: "Link: ";
 }
 .flex-item-blue::before { 
-    content: "Link: ";
+    content: "a11y Slacker: ";
 }
 
 .flex-item-tan::before { 
