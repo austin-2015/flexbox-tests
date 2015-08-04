@@ -196,7 +196,7 @@ height:auto;
 
 .flex-item-bluegreen {
   background: #1fb2d2;
-  border-left:15px solid #blue;
+  border-left:15px solid blue;
   padding: 5px;
   width: 200px;
   height: 150px;
