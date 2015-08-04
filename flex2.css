@@ -196,13 +196,13 @@ height:auto;
 
 .flex-item-bluegreen {
   background: #1fb2d2;
-  border-left:15px solid #000000;
+  border-left:15px solid #blue;
   padding: 5px;
   width: 200px;
   height: 150px;
   margin-top: 10px;
   line-height: 150px;
-  color: white;
+  color: #67300c;
   font-weight: bold;
   font-size: 1em;
   text-align: center;
@@ -499,7 +499,7 @@ height:auto;
     content: "To Do: ";
 }
 .flex-item-bluegreen::before { 
-    content: "To Do: ";
+    content: "To Check: ";
 }
 
 .flex-item-storm::before { 
