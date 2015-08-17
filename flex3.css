@@ -504,7 +504,7 @@ height:auto;
 }
 
 .flex-item-storm::before { 
-    content: "Testing: ";
+    content: "Tests: ";
 }
 
 .flex-item-brick::before { 
@@ -515,7 +515,7 @@ height:auto;
 }
 
 .flex-item-tan::before { 
-    content: "Techniques: ";
+    content: "Info: ";
 }
 
 .flex-item-brick a:visited:before {
@@ -531,7 +531,7 @@ height:auto;
 }
 
 .flex-item-black::before { 
-    content: "Reference: ";
+    content: "W3C: ";
 }
 /* end test content before and after */  
   
