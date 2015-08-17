@@ -499,12 +499,12 @@ height:auto;
     content: "To Do: ";
 }
 .flex-item-bluegreen::before { 
-    content: "To Check: ";
+    content: "To Do: ";
     color: #000000;
 }
 
 .flex-item-storm::before { 
-    content: "Tests: ";
+    content: "Eval: ";
 }
 
 .flex-item-brick::before { 
