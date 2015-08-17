@@ -508,7 +508,7 @@ height:auto;
 }
 
 .flex-item-brick::before { 
-    content: "Link: ";
+    content: "Add-Ons: ";
 }
 .flex-item-blue::before { 
     content: "a11y Slacker: ";
