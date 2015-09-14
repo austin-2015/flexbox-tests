@@ -208,6 +208,23 @@ height:auto;
   text-align: center;
   overflow: hidden;
   flex-grow: 1;
+  order: 6;
+} 
+
+.flex-item-greenblue {
+  background: #45cba1;
+  border-left:15px solid #4b6e8c;
+  padding: 5px;
+  width: 200px;
+  height: 100px;
+  margin-top: 10px;
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  overflow: hidden;
+  flex-grow: 1;
   order: 5;
 } 
 
@@ -225,7 +242,7 @@ height:auto;
   text-align: center;
   overflow: hidden;
   flex-grow: 1;
-  order: 6;
+  order: 7;
 } 
 
 .flex-item-tan {
@@ -242,7 +259,7 @@ height:auto;
   text-align: center;
   overflow: hidden;
   flex-grow: 1;
-  order: 7;
+  order: 8;
 } 
 
 .flex-item a, a:active {
@@ -489,6 +506,19 @@ height:auto;
   text-align: center;
   text-decoration:none;
 } 
+.flex-item-greenblue a:hover, a:focus {
+  background: #000000;
+  padding: 5px;
+  width: 200px;
+  height: 100px;
+  margin-top: 10px;
+  /*line-height: 150px;*/
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  text-decoration:none;
+}
 
 /*above is end of code modified and adapted from CSS tricks */
     
@@ -503,6 +533,10 @@ height:auto;
     color: #000000;
 }
 
+.flex-item-greenblue::before { 
+    content: "ARIA: ";
+    color: #ffffff;
+}
 .flex-item-storm::before { 
     content: "Eval: ";
 }
@@ -515,7 +549,7 @@ height:auto;
 }
 
 .flex-item-tan::before { 
-    content: "Info: ";
+    content: "Reading: ";
 }
 
 .flex-item-brick a:visited:before {
