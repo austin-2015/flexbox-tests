@@ -1,0 +1,101 @@
+   
+<!DOCTYPE HTML>
+<html lang="en">
+   <!-- source for script https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Sections_and_Outlines_of_an_HTML5_document -->
+   <!--[if lt IE 9]>
+  <script>
+    document.createElement("header" );
+    document.createElement("footer" );
+    document.createElement("section"); 
+    document.createElement("aside"  );
+    document.createElement("nav"    );
+    document.createElement("article"); 
+    document.createElement("hgroup" ); 
+    document.createElement("time"   );
+  </script>
+  <noscript>
+     <strong>Warning !</strong>
+     Because your browser does not support HTML5, some elements are created using JavaScript.
+     Unfortunately your browser has disabled scripting. Please enable it in order to display this page.
+  </noscript>
+<![endif]-->
+   
+<head>
+   <meta charset="utf-8" />
+<TITLE>Test Test Test</TITLE>
+<link rel="stylesheet" href="flex3.css" />
+</head>
+<body>
+   <div id="skip"><a href="#content">Skip to Main Content</a></div> 
+<HEADER>
+ <H1>Under Construction</H1>
+</HEADER>
+<article itemscope itemtype="http://schema.org/CreativeWork">
+   <header><h4>Very, very very much under construction...</h4></header>
+<div style="background:url('https://cloud.githubusercontent.com/assets/4747981/8571311/f0056e8c-2553-11e5-860d-61ca63a5e4ff.jpg') no-repeat center center;height:500px;background-size:cover;"></div>
+<h6>Background image by  Ryan McGuire <a href="http://gratisography.com/">Gratisography</a></h6>
+</article>
+<aside>
+   <h4>Iframe containing display and links from Gitter a11y Slackers</h4>
+       <div class="iframe-region">
+         <iframe src="https://gitter.im/w3c/a11ySlackers/~chat#initial" style="display: block; width: 100%; height: 300px;"  title="Iframe with a11y slackers" name="testiframe" id="testiframe" sandbox></iframe>
+       </div>
+</aside>
+<main id="content">
+   <section>
+      <h4>Currently Looking At: ARIA</h4>
+      <ul>
+         <li>Dynamic content which updates without a page reload is generally either a region or a widget. Simple content changes which are not interactive should be marked as live regions. Below is a list of each related ARIA live region property with a description. Source: <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions">https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions</a></li>
+         <li>Accessibility clients require direct access to information about content. In non-e10s this information is queried directly using sync calls into the DOM. These calls generally arrive on the application main or UI thread and expect a response on return. With e10s, the chrome process generally communicates with content through asynchronous interfaces. This is incompatible with current a11y clients. Source: <a href="https://wiki.mozilla.org/Electrolysis">https://wiki.mozilla.org/Electrolysis</a></li>
+      </ul>
+   </section>
+<section>
+   <h5>Links to information and tests</h5>
+   <ul class="flex flex-container">
+      <li class="flex-item-blue"><a href="https://gitter.im/w3c/a11ySlackers">Login to Gitter a11y Slackers</a></li>
+      <li class="flex-item-storm"><a href="http://tenon.io/">Tenon.io</a></li>
+      <li class="flex-item-black"><a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html">WCAG 2.0 ByPassing Repetitive Blocks</a></li>
+      <li class="flex-item-storm"><a href="http://webaim.org/techniques/css/invisiblecontent/">WebAIM technique for skip link that comes into focus when tabbing</a></li>
+      <li class="flex-item-blue"><a href="https://github.com/w3c/a11ySlackers#user-content-pidgin">Join a11y Slacker</a></li>
+      <li class="flex-item-blue"><a href="http://www.paciellogroup.com/blog/2015/07/anybody-can-be-an-a11y-slacker/#sameroom">Anybody can be an A11y Slacker</a></li>
+      <li class="flex-item-black"><a href="http://www.w3.org/WAI/eval/report-tool/#/">WAI Eval Tool</a></li>
+      <li class="flex-item-black"><a href="http://www.w3.org/WAI/ER/tools/">List of a11y test tools</a></li>
+      <li class="flex-item-blue"><a href="https://github.com/w3c/a11ySlackers/tree/gh-pages/archives"> Steve Faulkner's Archives for a11y Gitter</a></li>
+      <li class="flex-item-blue"><a href="https://sameroom.io/open-a-tube">SameRoom</a></li>
+   </ul>
+
+   <ul class="flex-container">
+      <li class="flex-item-bluegreen">Tab Order Needs to Skip Iframe</li>
+      <li class="flex-item-bluegreen">Screen-reader readout of content before</li>
+      <li class="flex-item-bluegreen">Color Contrast</li>
+      <li class="flex-item-bluegreen">Bypass Blocks: Understanding SC 2.4.1</li>
+      <li class="flex-item-bluegreen">Outline Use of li rather than headers</li>
+      <li class="flex-item-bluegreen">Heading Structure</li>
+      <li class="flex-item-brick"><a href="https://addons.mozilla.org/en-US/firefox/addon/axe-firefox-devtools/">FireFox AXE extension</a></li>
+      <li class="flex-item-tan"><a href="http://webaim.org/techniques/css/invisiblecontent/">Invisible Content</a></li> 
+      <li class="flex-item-tan"><a href="https://github.com/w3c/a11ySlackers#connecting-to-gitter-over-irc">Connecting to Gitter over IRC</a></li>
+   </ul>
+   
+   <ul class="flex-container">
+      <li class="flex-item-tan"><a href="https://wiki.mozilla.org/Electrolysis#Accessibility_Support">Mozilla Accessibility</a></li> 
+      <li class="flex-item-tan"><a href="http://arewee10syet.com/">AreWe 10 yet?</a></li>
+   </ul>
+   
+</section>
+</main>
+  <footer>
+
+      <ul class="flex-container">
+         <li class="flex-item-storm"><a href="flexboxtests1.html">Flexbox Test One</a></li>
+         <li class="flex-item-tan"><a href="http://bennettfeely.com/flexplorer/">Flexplorer</a></li>
+         <li class="flex-item-black"><a href="https://scotch.io/demos/visual-guide-to-css3-flexbox-flexbox-playground">Visual Guide Flexbox</a></li>
+         <li class="flex-item-black"><a href="https://docs.google.com/spreadsheets/d/1QJVcXx5hTWYBcJbHJD3DrL3hSFVbfy1VQFyADMtrDFY/edit?pli=1#gid=0">Media Player Accessibility Comparisons</a></li>
+      </ul>
+  </footer>
+
+     
+  </body>
+  </html>    
+                      
+        
+  
