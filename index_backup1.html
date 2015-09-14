@@ -1,3 +1,4 @@
+   
 <!DOCTYPE HTML>
 <html lang="en">
    <!-- source for script https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Sections_and_Outlines_of_an_HTML5_document -->
@@ -41,6 +42,13 @@
        </div>
 </aside>
 <main id="content">
+   <section>
+      <h4>Currently Looking At: ARIA</h4>
+      <ul>
+         <li>Dynamic content which updates without a page reload is generally either a region or a widget. Simple content changes which are not interactive should be marked as live regions. Below is a list of each related ARIA live region property with a description. Source: <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions">https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions</a></li>
+         <li>Accessibility clients require direct access to information about content. In non-e10s this information is queried directly using sync calls into the DOM. These calls generally arrive on the application main or UI thread and expect a response on return. With e10s, the chrome process generally communicates with content through asynchronous interfaces. This is incompatible with current a11y clients. Source: <a href="https://wiki.mozilla.org/Electrolysis">https://wiki.mozilla.org/Electrolysis</a></li>
+      </ul>
+   </section>
 <section>
    <h5>Links to information and tests</h5>
    <ul class="flex flex-container">
@@ -87,4 +95,7 @@
 
      
   </body>
-  </html> 
+  </html>    
+                      
+        
+  
