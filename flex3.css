@@ -125,9 +125,9 @@ height:auto;
 /* tan color #be9a84 */
 /*bluegreen color 1fb2d2 This will definitely need to be checked for color contrast*/
 
-.flex-item-auto {
+.flex-item-thumb {
   background: transparent;
-  border-left:15px solid #993333;
+  border-left:15px solid #ffffff;
   padding: 5px;
   width: 200px;
   height: 300px;
