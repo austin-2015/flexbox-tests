@@ -139,7 +139,22 @@ height:auto;
   text-align: center;
   overflow: hidden;
   flex-grow: 1;
-  order: 0;
+} 
+
+.flex-item-header {
+  background: #333366;
+  border-left:15px solid #be9a84;
+  padding: 5px;
+  width: 200px;
+  height: 100px;
+  margin-top: 10px;
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  overflow: hidden;
+  flex-grow: 1;
 } 
 
 
