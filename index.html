@@ -22,30 +22,37 @@
    
 <head>
    <meta charset="utf-8" />
-<TITLE>Test Test Test</TITLE>
+<TITLE>Exploring Grids</TITLE>
 <link rel="stylesheet" href="flex3.css" />
 </head>
 <body>
    <div id="skip"><a href="#content">Skip to Main Content</a></div> 
 <HEADER>
- <H1>I have no life.  I will never finish this site. </H1>
- <h2>It will be under construction for the rest of my life...</h2>
+ <H1>Exploring Grids</H1>
 </HEADER>
-<article itemscope itemtype="http://schema.org/CreativeWork">
-   <header><h4>This site is very, very very much under construction...</h4></header>
    
+<article itemscope itemtype="http://schema.org/CreativeWork">
+   <header><h4>Exploring structuring options with grids.</h4></header>  
 <div style="background:url('https://cloud.githubusercontent.com/assets/4747981/8571311/f0056e8c-2553-11e5-860d-61ca63a5e4ff.jpg') no-repeat center center;height:500px;background-size:cover;"></div>
 <h6>Background image by  Ryan McGuire <a href="http://gratisography.com/">Gratisography</a></h6>
 </article>
+<article itemscope itemtype="http://schema.org/CreativeWork">
+   <header><h4>Background</h4></header>  
+   <a href="https://hacks.mozilla.org/2017/04/replace-bootstrap-layouts-with-css-grid/">Replace Bootstrap Layouts with CSS Grid</a>
+</article>   
+   
+   
 <aside>
+   <!-- aside elements are not exposed to all parsers in outline -->
    <h4>Iframe containing display and links from Gitter a11y Slackers</h4>
+   <h5>Iframes work, but are problematic for assistive technology, and also may invite vulnerability.  Looking for a better way.</h5>
        <div class="iframe-region">
          <iframe src="https://gitter.im/w3c/a11ySlackers/~chat#initial" style="display: block; width: 100%; height: 300px;"  title="Iframe with a11y slackers" name="testiframe" id="testiframe" sandbox></iframe>
        </div>
 </aside>
 <main id="content">
    <section>
-      <h4>Currently Looking At: ARIA</h4>
+      <h4>Looking At: ARIA</h4>
       <ul>
          <li>Dynamic content which updates without a page reload is generally either a region or a widget. Simple content changes which are not interactive should be marked as live regions. Below is a list of each related ARIA live region property with a description. Source: <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions">https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions</a></li>
          <li>Accessibility clients require direct access to information about content. In non-e10s this information is queried directly using sync calls into the DOM. These calls generally arrive on the application main or UI thread and expect a response on return. With e10s, the chrome process generally communicates with content through asynchronous interfaces. This is incompatible with current a11y clients. Source: <a href="https://wiki.mozilla.org/Electrolysis">https://wiki.mozilla.org/Electrolysis</a></li>
