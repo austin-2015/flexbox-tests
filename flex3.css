@@ -132,7 +132,7 @@ height:auto;
   width: 200px;
   height: 300px;
   margin-top: 10px;
-  line-height: 100px;
+  /*line-height: 100px;*/
   color: #333;
   font-weight: bold;
   font-size: 1em;
