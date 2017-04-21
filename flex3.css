@@ -125,6 +125,24 @@ height:auto;
 /* tan color #be9a84 */
 /*bluegreen color 1fb2d2 This will definitely need to be checked for color contrast*/
 
+.flex-item-auto {
+  background: transparent;
+  border-left:15px solid #993333;
+  padding: 5px;
+  width: auto;
+  height: 300px;
+  margin-top: 10px;
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  overflow: hidden;
+  flex-grow: 1;
+  order: 0;
+} 
+
+
 .flex-item {
   background: tomato;
   border-left:15px solid #993333;
