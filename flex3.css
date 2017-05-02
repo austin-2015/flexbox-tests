@@ -638,7 +638,7 @@ height:auto;
     color: #ffffff;
 }
 .flex-item-storm::before { 
-    content: "Eval: ";
+    content: "Looking At: ";
 }
 
 .flex-item-brick::before { 
