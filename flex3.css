@@ -670,7 +670,7 @@ height:auto;
 /* end test content before and after */  
    
 .slant-brick {
-    width: 300px;
+    width: 200px;
     height: 100px;
     background-color:#993333;
     border-left:15px solid #000000;
@@ -683,7 +683,7 @@ height:auto;
     font-size: 1em;
     text-align: center;
     overflow: hidden;
-    flex-grow: 1;
+    flex-grow: 2;
     order: 20;
 }    
 
