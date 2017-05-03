@@ -671,7 +671,7 @@ height:auto;
    
 .slant-brick {
     width: 200px;
-    height: 100px;
+    height: 200px;
     background-color:#993333;
     border-left:15px solid #000000;
     color: white;
@@ -685,7 +685,6 @@ height:auto;
     -ms-transform: rotate(45deg); /* IE 9 */
     -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
     transform: rotate(45deg);
-    margin:-50px;
 }    
 
 .slant-brick a, a:active {
