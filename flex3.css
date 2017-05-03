@@ -673,9 +673,35 @@ height:auto;
     width: 200px;
     height: 100px;
     background-color:#993333;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    overflow: hidden;
+    flex-grow: 1;
+    order: 20;
     /* Rotate div */
     -ms-transform: rotate(45deg); /* IE 9 */
     -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
     transform: rotate(45deg);
 }   
  
+
+
+.slant-brick a, a:active {
+  background: #993333;
+  padding: 5px;
+  width: 200px;
+  height: 100px;
+  margin-top: 10px;
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  text-decoration:none;
+} 
+
+.slant-brick::before { 
+    content: "Notes: ";
+}
