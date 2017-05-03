@@ -533,7 +533,7 @@ height:auto;
   text-decoration:none;
 } 
 .flex-item-tan a, a:active {
-  background:# be9a84;
+  background:#be9a84;
   padding: 5px;
   width: 200px;
   height: 100px;
@@ -679,12 +679,13 @@ height:auto;
     font-size: 1em;
     text-align: center;
     overflow: hidden;
-    flex-grow: 2;
+    flex-grow: 1;
     order: 20;
     /* Rotate div */
     -ms-transform: rotate(45deg); /* IE 9 */
     -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
     transform: rotate(45deg);
+    margin:-50px;
 }    
 
 .slant-brick a, a:active {
