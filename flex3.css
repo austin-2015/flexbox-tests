@@ -673,6 +673,7 @@ height:auto;
     width: 200px;
     height: 100px;
     background-color:#993333;
+    border-left:15px solid #000000;
     color: white;
     font-weight: bold;
     font-size: 1em;
@@ -695,6 +696,7 @@ height:auto;
 .flex-item-brick a:hover, a:focus {
   background: #000000;
   color: white;
+  border-left:15px solid #ffffff;
   font-weight: bold;
   font-size: 1em;
   text-align: center;
