@@ -674,8 +674,6 @@ height:auto;
     height: 100px;
     background-color:#993333;
     border-left:15px solid #000000;
-    /* Rotate div */
-
     color: white;
     font-weight: bold;
     font-size: 1em;
@@ -683,6 +681,10 @@ height:auto;
     overflow: hidden;
     flex-grow: 2;
     order: 20;
+    /* Rotate div */
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
 }    
 
 .slant-brick a, a:active {
